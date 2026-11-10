@@ -1,0 +1,11 @@
+{
+  "name": "smart-attendance-iot-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Attendance System - IoT Based College Management Platform",
+  "scripts": {
+    "dev": "node start.js",
+    "start": "node start.js"
+  }
+}
+

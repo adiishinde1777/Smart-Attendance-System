@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables (keep secrets & MySQL passwords private)
+.env
+backend/.env
+frontend/.env
+
+# Local SQLite databases & logs
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+*.log
+npm-debug.log*
+
+# Production build artifacts
+frontend/dist/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
